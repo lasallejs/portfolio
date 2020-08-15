@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Unsupported Browser</title>
+    
+
+
+    <style type="text/css">
+
+        body {
+            background-color:#2a5C84;
+            padding:7%;
+            font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size:13px;
+            color: #333;
+
+            }
+
+        img {height:125px}
+
+
+        #unsupportedIE {
+            background-color:#fff;
+            padding:50px;
+            border-radius: 5px;
+            border: 1px solid #fff;
+            max-width: 800px;
+            margin:auto;
+            text-align:center;
+
+            }
+
+        .seeq-logo {height:100px}
+
+        p {
+            font-size:1.3em;
+            line-height:24px;
+            margin:30px 0}
+
+        .pl10.pr10 {
+            margin:20px;
+        }
+        .pl10.pr10 a {
+            color:#337ab7;
+            text-decoration:none;
+        }
+         .pl10.pr10 a:hover {
+      
+            text-decoration:underline;
+
+        }
+
+
+    </style>
+
+
+  </head>
+  <body>
+    <div id="unsupportedIE">
+      <p class="text-center pt25">
+        <img class="seeq-logo" src="img/Seeq_logo_darkBlue_sm.png" alt="Seeq" />
+        <br>
+      </p>
+      <p id='referrer'></p>
+      <script type="text/javascript" src="/resources/GetReferrerUrl.js"></script>
+      
+      <h1> Improve Your Experience </h1>
+      <p class="text-center lead">
+        The browser you are currently using is not supported.<br> Seeq is best viewed using the latest version of the following browsers:
+      </p>
+
+      <div class="text-center clearfix" style="display: block">
+      <span class="pl10 pr10" style="display: inline-block">
+        <a href="http://www.google.com/chrome" target="_blank">
+          <img src="img/chrome.png" alt="Chrome" />
+          <br><span class="lead"><strong>Google Chrome</strong></span>
+        </a>
+      </span>
+        <span class="pl10 pr10" style="display: inline-block">
+        <a href="http://www.getfirefox.com" target="_blank">
+          <img src="img/firefox.png" alt="Firefox" style="padding-bottom: 5px;" />
+          <br><span class="lead"><strong>Mozilla Firefox</strong></span>
+        </a>
+      </span>
+        <span class="pl10 pr10" style="display: inline-block">
+        <a href="http://www.apple.com/safari/" target="_blank">
+          <img src="img/safari.png" alt="Safari" />
+          <br><span class="lead"><strong>Safari</strong></span>
+        </a>
+      </span>
+        <span class="pl10 pr10" style="display: inline-block">
+        <a href="http://www.browserfordoing.com/" target="_blank">
+          <img src="img/edge.png" alt="Edge" />
+          <br><span class="lead"><strong>Microsoft Edge</strong></span>
+        </a>
+      </span>
+      </div>
+      <p class="text-center pt25">
+        Click on one of the logos above to download one of the supported browsers.
+        <br>Once the download has completed, install the browser by running the setup program.
+      </p>
+    </div>
+    <div ui-view id="mainView" class="fullViewport"></div>
+  </body>
+</html>
