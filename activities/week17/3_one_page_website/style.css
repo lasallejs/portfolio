@@ -1,0 +1,23 @@
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  background-color:black;
+  color:purple;
+  }
+
+li {
+    color:blue;
+}
+
+body {
+
+    background-color: orange;
+}
+
+
+li {
+    color:orange;
+}
